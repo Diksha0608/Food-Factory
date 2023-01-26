@@ -457,6 +457,7 @@ function hmrAcceptRun(bundle, id) {
 },{}],"jKMjS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _modelJs = require("./model.js");
+var _modelJsDefault = parcelHelpers.interopDefault(_modelJs);
 var _configJs = require("./config.js");
 var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
@@ -479,13 +480,13 @@ const controlRecipes = async function() {
         if (!id) return;
         _recipeViewJsDefault.default.renderSpinner();
         // 0) Update results view to mark selected search result
-        _resultsViewJsDefault.default.update(_modelJs.getSearchResultsPage());
+        _resultsViewJsDefault.default.update(_modelJsDefault.default.getSearchResultsPage());
         // 1) Updating bookmarks view
-        _bookmarksViewJsDefault.default.update(_modelJs.state.bookmarks);
+        _bookmarksViewJsDefault.default.update(_modelJsDefault.default.state.bookmarks);
         // 2) Loading recipe
-        await _modelJs.loadRecipe(id);
+        await _modelJsDefault.default.loadRecipe(id);
         // 3) Rendering recipe
-        _recipeViewJsDefault.default.render(_modelJs.state.recipe);
+        _recipeViewJsDefault.default.render(_modelJsDefault.default.state.recipe);
     } catch (err) {
         _recipeViewJsDefault.default.renderError();
         console.error(err);
@@ -498,54 +499,54 @@ const controlSearchResults = async function() {
         const query = _searchViewJsDefault.default.getQuery();
         if (!query) return;
         // 2) Load search results
-        await _modelJs.loadSearchResults(query);
+        await _modelJsDefault.default.loadSearchResults(query);
         // 3) Render results
-        _resultsViewJsDefault.default.render(_modelJs.getSearchResultsPage());
+        _resultsViewJsDefault.default.render(_modelJsDefault.default.getSearchResultsPage());
         // 4) Render initial pagination buttons
-        _paginationViewJsDefault.default.render(_modelJs.state.search);
+        _paginationViewJsDefault.default.render(_modelJsDefault.default.state.search);
     } catch (err) {
         console.log(err);
     }
 };
 const controlPagination = function(goToPage) {
     // 1) Render NEW results
-    _resultsViewJsDefault.default.render(_modelJs.getSearchResultsPage(goToPage));
+    _resultsViewJsDefault.default.render(_modelJsDefault.default.getSearchResultsPage(goToPage));
     // 2) Render NEW pagination buttons
-    _paginationViewJsDefault.default.render(_modelJs.state.search);
+    _paginationViewJsDefault.default.render(_modelJsDefault.default.state.search);
 };
 const controlServings = function(newServings) {
     // Update the recipe servings (in state)
-    _modelJs.updateServings(newServings);
+    _modelJsDefault.default.updateServings(newServings);
     // Update the recipe view
-    _recipeViewJsDefault.default.update(_modelJs.state.recipe);
+    _recipeViewJsDefault.default.update(_modelJsDefault.default.state.recipe);
 };
 const controlAddBookmark = function() {
     // 1) Add/remove bookmark
-    if (!_modelJs.state.recipe.bookmarked) _modelJs.addBookmark(_modelJs.state.recipe);
-    else _modelJs.deleteBookmark(_modelJs.state.recipe.id);
+    if (!_modelJsDefault.default.state.recipe.bookmarked) _modelJsDefault.default.addBookmark(_modelJsDefault.default.state.recipe);
+    else _modelJsDefault.default.deleteBookmark(_modelJsDefault.default.state.recipe.id);
     // 2) Update recipe view
-    _recipeViewJsDefault.default.update(_modelJs.state.recipe);
+    _recipeViewJsDefault.default.update(_modelJsDefault.default.state.recipe);
     // 3) Render bookmarks
-    _bookmarksViewJsDefault.default.render(_modelJs.state.bookmarks);
+    _bookmarksViewJsDefault.default.render(_modelJsDefault.default.state.bookmarks);
 };
 const controlBookmarks = function() {
-    _bookmarksViewJsDefault.default.render(_modelJs.state.bookmarks);
+    _bookmarksViewJsDefault.default.render(_modelJsDefault.default.state.bookmarks);
 };
 const controlAddRecipe = async function(newRecipe) {
     try {
         // Show loading spinner
         _addRecipeViewJsDefault.default.renderSpinner();
         // Upload the new recipe data
-        await _modelJs.uploadRecipe(newRecipe);
-        console.log(_modelJs.state.recipe);
+        await _modelJsDefault.default.uploadRecipe(newRecipe);
+        console.log(_modelJsDefault.default.state.recipe);
         // Render recipe
-        _recipeViewJsDefault.default.render(_modelJs.state.recipe);
+        _recipeViewJsDefault.default.render(_modelJsDefault.default.state.recipe);
         // Success message
         _addRecipeViewJsDefault.default.renderMessage();
         // Render bookmark view
-        _bookmarksViewJsDefault.default.render(_modelJs.state.bookmarks);
+        _bookmarksViewJsDefault.default.render(_modelJsDefault.default.state.bookmarks);
         // Change ID in URL
-        window.history.pushState(null, '', `#${_modelJs.state.recipe.id}`);
+        window.history.pushState(null, '', `#${_modelJsDefault.default.state.recipe.id}`);
         // Close form window
         setTimeout(function() {
             _addRecipeViewJsDefault.default.toggleWindow();
