@@ -1,4 +1,4 @@
-17912
+17893
 75D:\Forkify_App\node_modules\es-abstract\2019\GetPrototypeFromConstructor.js133190424582495945 0
 64D:\Forkify_App\node_modules\@parcel\babel-ast-utils\package.json133190424559329336 0
 70D:\Forkify_App\node_modules\postcss-normalize-charset\types\index.d.ts133190424611810902 0
@@ -38,7 +38,7 @@
 62D:\Forkify_App\node_modules\type-fest\ts41\delimiter-case.d.ts133190424648370413 0
 79D:\Forkify_App\node_modules\postcss-modules-values\node_modules\chalk\readme.md133190424610052427 0
 55D:\Forkify_App\node_modules\is-binary-path\package.json133190424589145557 0
-19D:\Forkify_App\dist133192138180279200 1
+19D:\Forkify_App\dist133192217606678647 1
 49D:\Forkify_App\node_modules\purgecss\package.json133190424616333493 0
 40D:\Forkify_App\node_modules\wcwidth\docs133190424651455390 1
 50D:\Forkify_App\node_modules\picomatch\lib\utils.js133190424605184675 0
@@ -174,7 +174,7 @@
 77D:\Forkify_App\node_modules\sharp\vendor\8.10.6\include\libexif\exif-format.h133190424634497747 0
 32D:\Forkify_App\package-lock.json133191503085331300 0
 67D:\Forkify_App\node_modules\es-abstract\2016\OrdinaryHasProperty.js133190424581746337 0
-27D:\Forkify_App\package.json133190494115658758 0
+27D:\Forkify_App\package.json133192217211060662 0
 70D:\Forkify_App\node_modules\css-select\lib\pseudo-selectors\aliases.js133190424579576082 0
 47D:\Forkify_App\node_modules\decompress-response133190424580563468 1
 83D:\Forkify_App\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\xmlunicode.h133190424635634004 0
@@ -306,7 +306,7 @@
 55D:\Forkify_App\node_modules\querystring-es3\.travis.yml133190424616560071 0
 68D:\Forkify_App\node_modules\string.prototype.trimend\test\shimmed.js133190424644299067 0
 46D:\Forkify_App\node_modules\lodash\multiply.js133190424598158404 0
-35D:\Forkify_App\src\js\controller.js133192148569081007 0
+35D:\Forkify_App\src\js\controller.js133192210800486391 0
 33D:\Forkify_App\node_modules\bn.js133190424571317800 1
 98D:\Forkify_App\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\container.js133190424608664216 0
 56D:\Forkify_App\node_modules\postcss-ordered-values\types133190424612718615 1
@@ -332,7 +332,6 @@
 65D:\Forkify_App\node_modules\postcss-normalize-string\package.json133190424612163639 0
 46D:\Forkify_App\node_modules\has-symbols\.nycrc133190424585974274 0
 75D:\Forkify_App\node_modules\caniuse-lite\data\features\input-file-accept.js133190424572530010 0
-44D:\Forkify_App\dist\shopee-food.bc7310c2.png133192078813953188 0
 39D:\Forkify_App\src\js\controllerfake.js133190439591248854 0
 44D:\Forkify_App\node_modules\lodash\fp\seq.js133190424597269118 0
 47D:\Forkify_App\node_modules\ws\lib\extension.js133190424652261802 0
@@ -359,7 +358,7 @@
 60D:\Forkify_App\node_modules\postcss-modules-values\README.md133190424609934882 0
 48D:\Forkify_App\node_modules\lodash\_asciiSize.js133190424594474353 0
 46D:\Forkify_App\node_modules\sharp\src\stats.cc133190424628274048 0
-30D:\Forkify_App\src\js\model.js133191919891192008 0
+30D:\Forkify_App\src\js\model.js133192210714075355 0
 56D:\Forkify_App\node_modules\core-js\features\set\join.js133190424576533696 0
 35D:\Forkify_App\src\js\Views\base.js133191341353503598 0
 92D:\Forkify_App\node_modules\split2\node_modules\readable-stream\lib\internal\streams\from.js133190424642816327 0
@@ -721,6 +720,7 @@
 85D:\Forkify_App\node_modules\@parcel\transformer-json\node_modules\json5\lib\util.d.ts133190424568547415 0
 54D:\Forkify_App\node_modules\source-map-js\package.json133190424641889637 0
 73D:\Forkify_App\node_modules\core-js\internals\require-object-coercible.js133190424577167210 0
+41D:\Forkify_App\dist\index.a7006649.js.map133192217606653222 0
 40D:\Forkify_App\node_modules\bcrypt-pbkdf133190424571186830 1
 45D:\Forkify_App\node_modules\picomatch\LICENSE133190424605104952 0
 34D:\Forkify_App\node_modules\big.js133190424571196795 1
@@ -3724,7 +3724,6 @@
 67D:\Forkify_App\node_modules\sharp\vendor\8.10.6\include\vips\vips.h133190424636931414 0
 82D:\Forkify_App\node_modules\postcss-modules-values\node_modules\chalk\package.json133190424610042786 0
 47D:\Forkify_App\node_modules\lodash\_cacheHas.js133190424594964820 0
-38D:\Forkify_App\dist\logo1.17ca218e.jpg133192066602606623 0
 81D:\Forkify_App\node_modules\static-extend\node_modules\is-data-descriptor\LICENSE133190424643541916 0
 51D:\Forkify_App\node_modules\source-map\package.json133190424642512274 0
 68D:\Forkify_App\node_modules\binary-extensions\binary-extensions.json133190424571206772 0
@@ -7442,7 +7441,6 @@
 49D:\Forkify_App\node_modules\randombytes\.zuul.yml133190424616817413 0
 42D:\Forkify_App\node_modules\npmlog\LICENSE133190424602186759 0
 50D:\Forkify_App\node_modules\randombytes\browser.js133190424616837266 0
-41D:\Forkify_App\dist\index.5d02636b.js.map133190426013874153 0
 68D:\Forkify_App\node_modules\postcss-modules\node_modules\postcss\lib133190424611688433 1
 63D:\Forkify_App\node_modules\highlight.js\styles\brown-paper.css133190424587466349 0
 72D:\Forkify_App\node_modules\caniuse-lite\data\features\css-appearance.js133190424572001802 0
@@ -7986,7 +7984,6 @@
 83D:\Forkify_App\node_modules\postcss-modules-values\node_modules\postcss\lib\root.js133190424610646692 0
 62D:\Forkify_App\node_modules\caniuse-lite\data\features\wasm.js133190424573012584 0
 66D:\Forkify_App\node_modules\es-abstract\2016\InstanceofOperator.js133190424581686535 0
-42D:\Forkify_App\dist\index.aac03caf.css.map133190426013864213 0
 43D:\Forkify_App\node_modules\merge2\index.js133190424599108411 0
 46D:\Forkify_App\node_modules\isobject\README.md133190424589813519 0
 87D:\Forkify_App\node_modules\postcss-modules-values\node_modules\postcss\lib\tokenize.js133190424610702350 0
@@ -9776,6 +9773,7 @@
 45D:\Forkify_App\node_modules\lodash\inRange.js133190424597762034 0
 52D:\Forkify_App\node_modules\lodash\intersectionBy.js133190424597781964 0
 54D:\Forkify_App\node_modules\lodash\intersectionWith.js133190424597791927 0
+38D:\Forkify_App\dist\index.fb39b878.css133192217606238230 0
 48D:\Forkify_App\node_modules\lmdb-store\README.md133190424592166604 0
 47D:\Forkify_App\node_modules\lodash\_arrayMap.js133190424594444448 0
 44D:\Forkify_App\node_modules\lodash\invert.js133190424597791927 0
@@ -11960,7 +11958,6 @@
 64D:\Forkify_App\node_modules\highlight.js\lib\languages\prolog.js133190424586677101 0
 68D:\Forkify_App\node_modules\highlight.js\lib\languages\properties.js133190424586687089 0
 66D:\Forkify_App\node_modules\highlight.js\lib\languages\protobuf.js133190424586687089 0
-37D:\Forkify_App\dist\index.0e47d5c3.js133190424557102177 0
 67D:\Forkify_App\node_modules\core-js\internals\string-trim-forced.js133190424577210490 0
 64D:\Forkify_App\node_modules\highlight.js\lib\languages\puppet.js133190424586687089 0
 70D:\Forkify_App\node_modules\core-js\modules\esnext.reflect.metadata.js133190424577957361 0
@@ -15919,7 +15916,7 @@
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\BR.js133190424573152482 0
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\BY.js133190424573162449 0
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\CA.js133190424573162449 0
-30D:\Forkify_App\dist\index.html133192082480605069 0
+30D:\Forkify_App\dist\index.html133192217606238230 0
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\CG.js133190424573172414 0
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\CH.js133190424573182395 0
 59D:\Forkify_App\node_modules\caniuse-lite\data\regions\CI.js133190424573182395 0
@@ -16133,7 +16130,6 @@
 42D:\Forkify_App\node_modules\.bin\json5.ps1133190424557391378 0
 79D:\Forkify_App\node_modules\@babel\types\lib\comments\inheritLeadingComments.js133190424558684308 0
 69D:\Forkify_App\node_modules\caniuse-lite\data\features\eventsource.js133190424572380520 0
-38D:\Forkify_App\dist\index.aac03caf.css133190426013686508 0
 79D:\Forkify_App\node_modules\caniuse-lite\data\features\extended-system-fonts.js133190424572380520 0
 56D:\Forkify_App\node_modules\@babel\traverse\lib\index.js133190424558514881 0
 75D:\Forkify_App\node_modules\caniuse-lite\data\features\fieldset-disabled.js133190424572390483 0
@@ -17074,7 +17070,6 @@
 100D:\Forkify_App\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\index.js133190424561317683 0
 104D:\Forkify_App\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\package.json133190424561317683 0
 83D:\Forkify_App\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133190424561304255 0
-37D:\Forkify_App\dist\logo.739a33b1.png133192066541694920 0
 82D:\Forkify_App\node_modules\@parcel\node-resolver-core\test\fixture\nested\test.js133190424561304255 0
 88D:\Forkify_App\node_modules\@parcel\node-resolver-core\test\fixture\env-dep\package.json133190424561303345 0
 74D:\Forkify_App\node_modules\@parcel\node-resolver-core\src\NodeResolver.js133190424561290767 0
@@ -17892,22 +17887,8 @@
 41D:\Forkify_App\node_modules\.bin\uuid.ps1133190424557519779 0
 42D:\Forkify_App\node_modules\.bin\which.cmd133190424557529738 0
 42D:\Forkify_App\node_modules\.bin\which.ps1133190424557529738 0
-46D:\Forkify_App\dist\fast-food_low.cf955f38.png133192072681654388 0
-40D:\Forkify_App\dist\favicon.62381efe.png133192082480605069 0
-40D:\Forkify_App\dist\favicon.9a1bb8f5.png133190425890593934 0
-50D:\Forkify_App\dist\food-factory-logo.502fa434.png133192064142922801 0
-45D:\Forkify_App\dist\food-factory.965418cb.png133192082480605069 0
-38D:\Forkify_App\dist\icons.1ea35d5c.svg133192082479175865 0
-38D:\Forkify_App\dist\icons.9801e6f1.svg133190426013675455 0
-38D:\Forkify_App\dist\icons.c097e590.svg133192082479175865 0
-41D:\Forkify_App\dist\index.0e47d5c3.js.map133190424557122835 0
-37D:\Forkify_App\dist\index.436439df.js133192138179917870 0
-41D:\Forkify_App\dist\index.436439df.js.map133192138180269134 0
-37D:\Forkify_App\dist\index.5d02636b.js133190426013691456 0
-38D:\Forkify_App\dist\index.fa02a0b5.css133192082810068423 0
-42D:\Forkify_App\dist\index.fa02a0b5.css.map133192082810090300 0
-37D:\Forkify_App\dist\logo.9272a069.png133190425916335609 0
-42D:\Forkify_App\dist\logo1-png.df8fee2e.png133192068349234768 0
-42D:\Forkify_App\dist\love-food.519bc236.png133192064952043807 0
-41D:\Forkify_App\dist\shopee-1.1f608331.png133192080195791131 0
-39D:\Forkify_App\dist\shopee.581fc300.png133192080170277371 0
+40D:\Forkify_App\dist\favicon.9a1bb8f5.png133192217413647502 0
+45D:\Forkify_App\dist\food-factory.a265cc91.png133192217447534789 0
+38D:\Forkify_App\dist\icons.9801e6f1.svg133192217606228229 0
+37D:\Forkify_App\dist\index.a7006649.js133192217606253430 0
+42D:\Forkify_App\dist\index.fb39b878.css.map133192217606648200 0
